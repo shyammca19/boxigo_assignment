@@ -46,7 +46,7 @@ class NewLead extends StatelessWidget {
                   Row(
                     children: [
                       Text(
-                        newlead.fromCity,
+                        newlead.fromCity.trim(),
                         style: const TextStyle(
                             fontSize: 23, fontWeight: FontWeight.bold),
                       ),
@@ -121,7 +121,7 @@ class NewLead extends StatelessWidget {
                     height: 15,
                   ),
                   Text(
-                    newlead.toCity,
+                    newlead.toCity.trim(),
                     style: const TextStyle(
                         fontSize: 23, fontWeight: FontWeight.bold),
                   ),
